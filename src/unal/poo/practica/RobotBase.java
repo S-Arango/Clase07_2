@@ -14,12 +14,12 @@ public class RobotBase
         
 	public static void main (String[] args){
             //Declarar la creacion de la ciudad
-            objetos = new City("Ejercicio2.txt");
+            objetos = new City("Field.txt");
 	    objetos.showThingCounts(true);
             
             //Direction.NORTH, EAST, SOUTH, WEST
             //Definicion de la ubicacion del robot, Ciudad, posicion, Direccion, Numero things en el bolso.
-            estudiante = new Robot(objetos,1, 3, Direction.WEST,10);
+            estudiante = new Robot(objetos,10, 1, Direction.EAST,10);
             
 	    //Mover una interseccion en el sentido al cual este apuntando el objeto.
             //estudiante.move ();
